@@ -21,21 +21,21 @@ public class Main {
      */
     public static void main(String[] args) {
 
+        navires[] tableau = new navires[4];
         Cuirasse c1 = new Cuirasse(8, "Le Richelieu", 12);
         Cuirasse c2 = new Cuirasse(5, "Le Jean Bart", 19);
 
         SousMarin s1 = new SousMarin(85, "Le Suffren", 20);
         SousMarin s2 = new SousMarin(72, "Le triomphant", 14);
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        LinkedList<navires> ListeNavire = new LinkedList<>();
+        ListeNavire.add(c1);
+        ListeNavire.add(c2);
+        ListeNavire.add(s1);
+        ListeNavire.add(s2);
+
+        System.out.println(ListeNavire);
+
         Cuirasse c5 = new Cuirasse(8, "Le Richelieu", 12);
 
         Ville v1 = new Ville(true, "Paris", 98);
