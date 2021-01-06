@@ -23,6 +23,11 @@ public class Ile extends Entite {
         return port;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + ", port=" + port + " / ";
+    }
+
     
     public void setPort(boolean port) { // initialisation du setter
         this.port = port;
