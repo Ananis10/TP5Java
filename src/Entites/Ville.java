@@ -27,6 +27,12 @@ public class Ville extends Entite {
     public void setSatellite(boolean satellite) { // initialisation du setter
         this.satellite = satellite;
     }
-    
-    
-}
+
+    @Override
+    public String toString() {
+        return super.toString() + ", satellite=" + satellite +" / " ;
+    }
+
+
+
+    }
