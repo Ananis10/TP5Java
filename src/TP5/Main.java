@@ -5,6 +5,9 @@
  */
 package TP5;
 
+import Navires.navires;
+import Navires.SousMarin;
+import Navires.Cuirasse;
 import Entites.Ile;
 import Entites.Ville;
 import Entites.Entite;
