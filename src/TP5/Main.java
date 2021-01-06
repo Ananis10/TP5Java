@@ -9,6 +9,7 @@ import Entites.Ile;
 import Entites.Ville;
 import Entites.Entite;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 /**
  *
