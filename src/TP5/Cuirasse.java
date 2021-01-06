@@ -10,5 +10,16 @@ package TP5;
  * @author Meyer
  */
 public class Cuirasse extends navires {
+    private int NbrCanon;
+
+    public Cuirasse(int NbrCanon, String nom, double PuissanceDeFeu) {
+        super(nom, PuissanceDeFeu);
+        this.NbrCanon = NbrCanon;
+    }
+
+    public int getNbrCanon() {
+        return NbrCanon;
+    }
+    
     
 }
