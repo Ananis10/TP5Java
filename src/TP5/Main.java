@@ -15,10 +15,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        // vous voyez ce que j'ai écrit ? Chlo
-        // blablabla
-        //alice ca glisse
+        // TODO code application logic 
         
     }
     
