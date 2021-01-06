@@ -5,6 +5,8 @@
  */
 package TP5;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author anais
@@ -34,6 +36,51 @@ public class Main {
     
   
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+Ville v1 = new Ville(true, "Paris", 98);
+    Ville v2 = new Ville(false, "Berlin", 66);  // création des 2 villes
+       
+    Ile i1 = new Ile(false,"Bora-Bora", 78);
+    Ile i2 = new Ile(true,"Tasmanie",45);
+
+    ArrayList<Entite> liste = new ArrayList<>();     // création de la liste
+    liste.add(v1);
+    liste.add(v2);
+    liste.add(i1);
+    liste.add(i2);
+    System.out.println(liste);
     }
     
 }
