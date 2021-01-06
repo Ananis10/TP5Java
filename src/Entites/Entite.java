@@ -26,5 +26,10 @@ public class Entite {
         return richesse;
     }
 
+    @Override
+    public String toString() {
+        return "nom=" + nom + ", richesse=" + richesse ;
+    }
+
     
 }
