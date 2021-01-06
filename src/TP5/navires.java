@@ -13,8 +13,16 @@ public class navires {
     private String nom;
     private double PuissanceDeFeu;
 
+    public String getNom() {
+        return nom;
+    }
 
+    public double getPuissanceDeFeu() {
+        return PuissanceDeFeu;
+    }
 
-
-// constructeur pour indiquer que la valeur est fixée dès le départ
-// pas puissance de feu on peut inotialiser la valeur plus tard
+    public navires(String nom, double PuissanceDeFeu) {// constructeur pour indiquer que la valeur est fixée dès le départ
+        this.nom = nom;
+        this.PuissanceDeFeu = PuissanceDeFeu;
+    }
+}
