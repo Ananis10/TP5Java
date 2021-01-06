@@ -10,5 +10,15 @@ package TP5;
  * @author Meyer
  */
 public class SousMarin extends navires {
+    private int PorteeSonar;
+
+    public int getPorteeSonar() {
+        return PorteeSonar;
+    }
+
+    public SousMarin(int PorteeSonar, String nom, double PuissanceDeFeu) {
+        super(nom, PuissanceDeFeu);
+        this.PorteeSonar = PorteeSonar;
+    }
     
 }
