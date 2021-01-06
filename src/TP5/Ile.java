@@ -17,6 +17,10 @@ public class Ile extends Entite {
         this.port = port;
     }
 
+    public boolean isPort() { //initialisation du getter
+        return port;
+    }
+
     
     public void setPort(boolean port) { // initialisation du setter
         this.port = port;
