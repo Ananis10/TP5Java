@@ -13,11 +13,16 @@ public class navires {
     private String nom;
     private double PuissanceDeFeu;
 
-    public String getNom() {
+    @Override
+    public String toString() {
+        return "navires{" + "nom=" + nom + ", PuissanceDeFeu=" + PuissanceDeFeu + '}';
+    }
+
+    public String getNom() {//get pour acceder nom et puissancefeu dans le main
         return nom;
     }
 
-    public double getPuissanceDeFeu() {
+    public double getPuissanceDeFeu() {//get pour acceder nom et puissancefeu dans le main
         return PuissanceDeFeu;
     }
 
