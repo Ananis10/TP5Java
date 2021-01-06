@@ -5,12 +5,13 @@
  */
 package TP5;
 
-/**
- *
- * @author Meyer
- */
-public class SousMarin extends navires {
+public class SousMarin extends navires{
     private int PorteeSonar;
+
+    @Override
+    public String toString() {
+        return  "nom=" + nom + ", PuissanceDeFeu=" + PuissanceDeFeu + ", PorteeSonar=" + PorteeSonar + '}';
+    }
 
     public int getPorteeSonar() {
         return PorteeSonar;
@@ -19,6 +20,5 @@ public class SousMarin extends navires {
     public SousMarin(int PorteeSonar, String nom, double PuissanceDeFeu) {
         super(nom, PuissanceDeFeu);
         this.PorteeSonar = PorteeSonar;
-    }
-    
+    }    
 }
