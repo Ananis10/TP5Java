@@ -9,8 +9,13 @@ package TP5;
  *
  * @author Meyer
  */
-public class Cuirasse extends navires {
+public class Cuirasse extends navires{
     private int NbrCanon;
+
+    @Override
+    public String toString() {
+        return "nom=" + nom + ", PuissanceDeFeu=" + PuissanceDeFeu + ", NbrCanon=" + NbrCanon + '}';
+    }
 
     public Cuirasse(int NbrCanon, String nom, double PuissanceDeFeu) {
         super(nom, PuissanceDeFeu);
@@ -20,6 +25,4 @@ public class Cuirasse extends navires {
     public int getNbrCanon() {
         return NbrCanon;
     }
-    
-    
 }
