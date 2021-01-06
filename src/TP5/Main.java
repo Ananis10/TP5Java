@@ -24,7 +24,15 @@ public class Main {
     
     
     
+    Cuirasse c5 = new Cuirasse(8, "Le Richelieu" , 12);
     
+    
+    
+  
+    
+    
+    
+  
     
     }
     
