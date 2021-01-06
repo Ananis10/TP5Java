@@ -15,6 +15,17 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    
+    Cuirasse c1 = new Cuirasse(8, "Le Richelieu" , 12);
+    Cuirasse c2 = new Cuirasse(5, "Le Jean Bart" , 19);
+    
+    SousMarin s1 = new SousMarin(85,"Le Suffren", 20);
+    SousMarin s2 = new SousMarin(72,"Le triomphant", 14);
+    
+    
+    
+    
+    
     }
     
 }
