@@ -5,19 +5,19 @@
  */
 package TP5;
 
+import java.util.LinkedList;
+
 /**
  *
- * @author Chloé_Canhan
+ * @author Meyer
  */
 public class navires {
-    private String nom;
-    private double PuissanceDeFeu;
+    String nom;
+    double PuissanceDeFeu;
 
-    @Override
-    public String toString() {
-        return "navires{" + "nom=" + nom + ", PuissanceDeFeu=" + PuissanceDeFeu + '}';
-    }
 
+    
+    
     public String getNom() {//get pour acceder nom et puissancefeu dans le main
         return nom;
     }
@@ -29,5 +29,5 @@ public class navires {
     public navires(String nom, double PuissanceDeFeu) {// constructeur pour indiquer que la valeur est fixée dès le départ
         this.nom = nom;
         this.PuissanceDeFeu = PuissanceDeFeu;
-    }
+    } 
 }
