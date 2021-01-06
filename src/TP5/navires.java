@@ -10,5 +10,13 @@ package TP5;
  * @author Chloé_Canhan
  */
 public class navires {
+    private String nom;
+    private double PuissanceDeFeu;
+
+    public navires(String nom, double PuissanceDeFeu) {// constructeur pour indiquer que la valeur est fixée dès le départ
+        this.nom = nom;
+        this.PuissanceDeFeu = PuissanceDeFeu;
+    }
+    
     
 }
