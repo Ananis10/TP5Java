@@ -17,6 +17,10 @@ public class Ville extends Entite {
         this.satellite = satellite;
     }
 
+    public boolean isSatellite() { //initialisation du getter
+        return satellite;
+    }
+
     
     public void setSatellite(boolean satellite) { // initialisation du setter
         this.satellite = satellite;
